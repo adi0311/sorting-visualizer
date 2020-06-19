@@ -183,7 +183,7 @@ export default class SortingVisualizer extends Component
 
 	playAnimations()
 	{
-		sort_type == 0 ? this.playAnimations_n_algo(): this.playAnimations_nlogn_and_n2_algo();
+		sort_type === 0 ? this.playAnimations_n_algo(): this.playAnimations_nlogn_and_n2_algo();
 	}
 
 	playAnimations_n_algo()
